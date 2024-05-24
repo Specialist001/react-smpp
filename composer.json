@@ -1,0 +1,35 @@
+{
+    "name": "specialist/react-smpp",
+    "description": "Async SMPP server and client implementations for ReactPHP.",
+    "license": "MIT",
+    "keywords": ["react", "reactphp", "smpp"],
+    "autoload": {
+        "psr-4": {
+            "specialist\\React\\Smpp\\" : "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Specialist",
+            "email": "darking-uz@yandex.com",
+            "homepage": "https://otajonov.uz",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-iconv": "*",
+        "psr/log": "^3.0.0",
+        "react/event-loop": "^1.5",
+        "react/socket": "^1.9"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-asserts": "^2.0",
+        "firehed/simplelogger": "^2.4",
+        "squizlabs/php_codesniffer": "^3.10"
+    }
+}
